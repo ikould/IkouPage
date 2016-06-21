@@ -1,1 +1,1 @@
-function open_aqi() {}
+function openAqi() {}
