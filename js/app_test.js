@@ -1,1 +1,3 @@
-function openAqi() {}
+function openAqi() {
+	appJs.openAqi();
+}
