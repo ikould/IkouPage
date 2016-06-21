@@ -2,5 +2,5 @@ function openAqi() {
 	appJs.openAqi();
 }
 function back_test(){
-	alert("ca");
+	$(".con_open_aqi span").text("第二次点击");
 }
