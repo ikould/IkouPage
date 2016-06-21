@@ -1,3 +1,1 @@
-$(document).ready(function(){
-	
-});
+function open_aqi() {}
