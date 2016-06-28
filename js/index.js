@@ -1,4 +1,4 @@
-(function() {
+(function(b) {
 	console.log("FWebChromeClient initialization begin");
 	var a = {
 		queue: [],
