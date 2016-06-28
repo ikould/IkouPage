@@ -1,4 +1,4 @@
-function ss() {
+(function() {
 	console.log("FWebChromeClient initialization begin");
 	var a = {
 		queue: [],
@@ -14,7 +14,7 @@ function ss() {
 		}
 	};
 
-	function() {
+	function hh() {
 		var f = Array.prototype.slice.call(arguments, 0);
 		if (f.length < 1) {
 			throw "FWebChromeClient call error, message:miss method name"
@@ -50,4 +50,4 @@ function ss() {
 	});
 	b.FWebChromeClient = a;
 	console.log("FWebChromeClient initialization end")
-}(window)
+})(window)
