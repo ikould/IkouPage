@@ -7,7 +7,6 @@
 			var d = Array.prototype.slice.call(arguments, 0);
 			var c = d.shift();
 			var e = d.shift();
-			appJs.outTest(d);
 			this.queue[c].apply(this, d);
 			if (!e) {
 				delete this.queue[c]
@@ -15,7 +14,7 @@
 		}
 	};
 
-	function hh() {
+	function zx() {
 		var f = Array.prototype.slice.call(arguments, 0);
 		if (f.length < 1) {
 			throw "FWebChromeClient call error, message:miss method name"
